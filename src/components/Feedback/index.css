@@ -1,0 +1,76 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 610px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .inner-container {
+    padding: 60px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+.ul-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heart-image {
+  width: 60px;
+  height: 60px;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.about {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  color: #0f172a;
+}
